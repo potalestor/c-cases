@@ -17,6 +17,7 @@ int main(int argc, char *argv[]) {
   while (reg_iter != reg_end) {
     cout << (reg_iter++)->str(1) << " ";
   }
+  
   return EXIT_SUCCESS;
 
 }
