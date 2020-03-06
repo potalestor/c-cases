@@ -8,6 +8,7 @@
 using namespace std;
 
 int main(int argc, char *argv[]) {
+
   string s = "The farm is made up of 11 rows of panels, 9 133 kW rows and 2 smaller 70kW rows that were the farm’s pilot project.";
   regex pattern("([[:d:]]+)");
   smatch matches;
@@ -17,6 +18,7 @@ int main(int argc, char *argv[]) {
     cout << (reg_iter++)->str(1) << " ";
   }
   return EXIT_SUCCESS;
+
 }
 
 Output: 11 9 133 2 70
