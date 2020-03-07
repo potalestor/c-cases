@@ -6,6 +6,6 @@
 
 ## BOOST library
 
-## Makefile
+## Build
 
 [Makefile with Boost test library](./boost.test.makefile.md)
