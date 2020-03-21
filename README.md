@@ -1,4 +1,4 @@
-# c-snippets
+# c-cases
 
 ## STD library
 
